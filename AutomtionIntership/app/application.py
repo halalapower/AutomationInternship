@@ -1,7 +1,7 @@
-from pages.amazon_prime_page import AmazonPrimePage
-from pages.main_page import MainPage
+
+from ..pages.main_page import MainPage
 from pages.header import Header
-from pages.search_results_page import SearchResults
+from .pages.search_results_page import SearchResults
 
 class Application:
 
