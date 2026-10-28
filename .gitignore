@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IDE and local drivers (Selenium Manager downloads drivers automatically)
+.idea/
+chromedriver
+chromedriver.exe
+geckodriver
