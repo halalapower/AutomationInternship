@@ -1,9 +1,4 @@
-from behave import given, when, then
-
-
-@given('Open GetTop page')
-def open_page(context):
-    context.app.main_page.open_main_page()
+from behave import when, then
 
 
 @when('Hover over accessories')

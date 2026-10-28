@@ -1,11 +1,6 @@
 from behave import given, when, then
 
 
-@given('Open GetTop page')
-def open_page(context):
-    context.app.main_page.open_main_page()
-
-
 @when('Hover over top banner')
 def hover_over_top_banner(context):
     context.app.main_page.hover_over_top_banner()
@@ -18,7 +13,7 @@ def Click_the_right_arrow_icon(context):
 
 @then('Click the left arrow icon')
 def Click_the_left_arrow_icon(context):
-    context.app.main_page.Click_the_right_arrow_icon()
+    context.app.main_page.Click_the_left_arrow_icon()
 
 
 @then('Click the bottom right dot')
